@@ -112,10 +112,10 @@ form {
     margin-top: -1300px;
   }
   .image {
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 350px;
     margin-left: 750px;
-    margin-top: -500px;
+    margin-top: -550px;
   }
   .fa-solid {
     color: #d82d40;
@@ -141,10 +141,12 @@ form {
     font-weight: bolder;
   }
   .ratus {
-    color: rgb(255, 140, 193);
+    color: #d82d40;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
   }
   .rese {
-    color: rgb(255, 140, 193);
+    color: #d82d40;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
   }
   .text4 {
     margin-top: 40px;
