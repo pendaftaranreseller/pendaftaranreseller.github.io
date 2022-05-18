@@ -1,0 +1,374 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background: #191724;
+  color: #fff;
+}
+form {
+  background-color: #fff;
+  background-size: cover;
+  margin-left: 0px;
+  width: 700px;
+  height: 380px;
+  border: 4px solid black;
+  border-radius: 30px;
+}
+.text7 {
+  margin-top: 10px;
+  margin-left: -140px;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+  font-weight: bolder;
+}
+.isi {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: #000;
+}
+.input-container {
+  width: 630px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.label {
+  position: absolute;
+  left: 10px;
+  top: 14px;
+  transition: all 0.2s;
+  padding: 0 2px;
+  z-index: 1;
+  color: #6d6d6d;
+}
+.text-input {
+  padding: 0.8rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s;
+  color: #000;
+}
+
+.label::before {
+  content: "";
+  height: 5px;
+  background: #fff;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 100%;
+  z-index: -1;
+}
+
+.text-input:focus {
+  border: 2px solid #000;
+}
+
+.text-input:focus + .label,
+.filled {
+  top: -10px;
+  color: #000;
+  font-size: 16px;
+}
+
+.text-input::placeholder {
+  font-size: 16px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.text-input:focus::placeholder {
+  opacity: 1;
+}
+#daftar {
+  width: 630px;
+  height: 45px;
+  position: relative;
+  margin-left: 30px;
+}
+@media (min-width: 992px) {
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background: #df5b6b;
+    color: #fff;
+  }
+  .image {
+    width: 450px;
+    height: 300px;
+    margin-left: 620px;
+    margin-top: -300px;
+  }
+  .fa-solid {
+    color: #d82d40;
+    margin-right: 15px;
+  }
+  .text1 {
+    margin-top: 50px !important;
+    margin-left: -670px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text2 {
+    margin-left: -705px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text3 {
+    margin-left: -640px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text4 {
+    margin-left: -700px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text5 {
+    margin-top: 20px !important;
+    margin-left: -955px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text6 {
+    margin-top: 10px;
+    margin-left: -660px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text7 {
+    margin-top: 10px;
+    margin-left: -857px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text8 {
+    margin-top: 10px;
+    margin-left: -615px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text81 {
+    margin-top: 10px;
+    margin-left: -453px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text9 {
+    margin-top: 10px !important;
+    margin-left: -685px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text10 {
+    margin-top: 10px;
+    margin-left: -482px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text11 {
+    margin-top: 10px;
+    margin-left: -895px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text12 {
+    margin-top: 10px;
+    margin-left: -555px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text13 {
+    margin-top: 10px;
+    margin-left: -285px;
+    color: #fff;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  a {
+    color: #fff;
+  }
+  form {
+    background-color: #fff;
+    background-size: cover;
+    margin-top: 30px;
+    width: 1200px;
+    height: 1520px;
+    border: 4px solid black;
+    border-radius: 30px;
+  }
+  .video {
+    margin-top: 50px;
+    width: 800px;
+  }
+  .promo {
+    margin-top: 50px;
+    width: 800px;
+    margin-bottom: 200px !important;
+  }
+  .isi {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  .input-container {
+    width: 1130px;
+    position: relative;
+    margin-left: 30px;
+  }
+
+  .label {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #6d6d6d;
+  }
+  .text-input {
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: #000;
+  }
+
+  .label::before {
+    content: "";
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .text-input:focus {
+    border: 2px solid #000;
+  }
+
+  .text-input:focus + .label,
+  .filled {
+    top: -10px;
+    color: #000;
+    font-size: 16px;
+  }
+
+  .text-input::placeholder {
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .text-input:focus::placeholder {
+    opacity: 1;
+  }
+  #daftar {
+    width: 1130px;
+    height: 45px;
+    position: relative;
+    margin-left: 30px;
+  }
+  .email {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .nama {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .kota {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .whatsapp {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .date {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .ig {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  #akun {
+    margin-top: 10px;
+    color: #000;
+    font-size: 20px;
+  }
+  .shopee {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #000;
+  }
+  .tokopedia {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  .lazada {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  .pernah {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  .tidak {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  .rp1 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #000;
+  }
+  .rp2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  .rp3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  #coba {
+    margin-top: -10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .mengetahui {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+}
