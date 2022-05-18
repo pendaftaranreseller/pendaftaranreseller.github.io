@@ -99,98 +99,99 @@ form {
     place-items: center;
     height: 100vh;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-    background: #df5b6b;
+    background-color: #fff;
     color: #fff;
   }
+  .color {
+    width: 1348px;
+    height: 1000px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+  }
+  .container {
+    margin-top: -1300px;
+  }
   .image {
-    width: 450px;
-    height: 300px;
-    margin-left: 620px;
-    margin-top: -300px;
+    width: 400px;
+    height: 250px;
+    margin-left: 750px;
+    margin-top: -500px;
   }
   .fa-solid {
     color: #d82d40;
     margin-right: 15px;
   }
   .text1 {
-    margin-top: 50px !important;
-    margin-left: -670px;
+    margin-top: -0px !important;
+    font-size: 30px;
+    margin-left: -50px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
   .text2 {
-    margin-left: -705px;
+    margin-left: -50px;
+    font-size: 30px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
   .text3 {
-    margin-left: -640px;
+    margin-left: -50px;
+    font-size: 30px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
+  .ratus {
+    color: rgb(255, 140, 193);
+  }
+  .rese {
+    color: rgb(255, 140, 193);
+  }
   .text4 {
-    margin-left: -700px;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: -30px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
   .text5 {
-    margin-top: 20px !important;
-    margin-left: -955px;
+    margin-top: 30px !important;
+    font-size: 30px;
+    margin-left: -30px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
   .text6 {
-    margin-top: 10px;
-    margin-left: -660px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: -30px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
   .text7 {
-    margin-top: 10px;
-    margin-left: -857px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: -30px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text71 {
+    margin-top: 0px;
+    font-size: 30px;
+    margin-left: 15px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
   .text8 {
-    margin-top: 10px;
-    margin-left: -615px;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
-    font-weight: bolder;
-  }
-  .text81 {
-    margin-top: 10px;
-    margin-left: -453px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: -30px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
   .text9 {
-    margin-top: 10px !important;
-    margin-left: -685px;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
-    font-weight: bolder;
-  }
-  .text10 {
-    margin-top: 10px;
-    margin-left: -482px;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
-    font-weight: bolder;
-  }
-  .text11 {
-    margin-top: 10px;
-    margin-left: -895px;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
-    font-weight: bolder;
-  }
-  .text12 {
-    margin-top: 10px;
-    margin-left: -555px;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
-    font-weight: bolder;
-  }
-  .text13 {
-    margin-top: 10px;
-    margin-left: -285px;
-    color: #fff;
+    margin-top: 30px !important;
+    font-size: 30px;
+    margin-left: -30px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
@@ -200,9 +201,9 @@ form {
   form {
     background-color: #fff;
     background-size: cover;
-    margin-top: 30px;
+    margin-top: -300px;
     width: 1200px;
-    height: 1520px;
+    height: 1130px;
     border: 4px solid black;
     border-radius: 30px;
   }
@@ -210,10 +211,17 @@ form {
     margin-top: 50px;
     width: 800px;
   }
-  .promo {
+  .textvideo {
     margin-top: 50px;
-    width: 800px;
-    margin-bottom: 200px !important;
+    color: #000;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    font-weight: bold;
+  }
+  .textvideo1 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
   }
   .isi {
     text-align: center;
@@ -286,12 +294,12 @@ form {
     position: relative;
     margin-left: 30px;
   }
-  .email {
+  .nama {
     margin-bottom: 10px;
     font-size: 20px;
     color: #000;
   }
-  .nama {
+  .email {
     margin-bottom: 10px;
     font-size: 20px;
     color: #000;
@@ -301,73 +309,28 @@ form {
     font-size: 20px;
     color: #000;
   }
-  .whatsapp {
+  .number {
     margin-bottom: 10px;
     font-size: 20px;
     color: #000;
   }
-  .date {
+  .coba {
     margin-bottom: 10px;
     font-size: 20px;
     color: #000;
   }
-  .ig {
+  .akun {
     margin-top: 10px;
     font-size: 20px;
     color: #000;
   }
-  #akun {
+  .jumlah {
     margin-top: 10px;
-    color: #000;
-    font-size: 20px;
-  }
-  .shopee {
-    margin-top: 40px;
-    font-size: 18px;
-    color: #000;
-  }
-  .tokopedia {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #000;
-  }
-  .lazada {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #000;
-  }
-  .pernah {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #000;
-  }
-  .tidak {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #000;
-  }
-  .rp1 {
-    margin-top: 40px;
-    font-size: 18px;
-    color: #000;
-  }
-  .rp2 {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #000;
-  }
-  .rp3 {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #000;
-  }
-  #coba {
-    margin-top: -10px;
     font-size: 20px;
     color: #000;
   }
-  .mengetahui {
-    margin-bottom: 10px;
+  .tentang {
+    margin-top: 10px;
     font-size: 20px;
     color: #000;
   }
