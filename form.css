@@ -3,26 +3,104 @@ body {
   place-items: center;
   height: 100vh;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  background: #191724;
+  background: #fff;
   color: #fff;
 }
 form {
   background-color: #fff;
   background-size: cover;
-  margin-left: 0px;
-  width: 700px;
-  height: 380px;
-  border: 4px solid black;
-  border-radius: 30px;
+  margin-left: -820px;
+  margin-top: -150px;
+  width: 350px;
+  height: 960px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.isi {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000;
+}
+#daftar {
+  width: 330px !important;
+  position: relative;
+  margin-left: 10px !important;
+  height: 45px;
+}
+.nama {
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #000;
+}
+.email {
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #000;
+}
+.kota {
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #000;
+}
+.number {
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #000;
+}
+.coba {
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #000;
+}
+.akun {
+  margin-top: 0px;
+  font-size: 15px;
+  color: #000;
+}
+.jumlah {
+  margin-top: 0px;
+  font-size: 15px;
+  color: #000;
+}
+.video {
+  margin-top: 50px;
+  width: 350px;
+  margin-left: -820px;
+}
+
+.textvideo {
+  margin-top: 20px;
+  margin-left: -820px;
+  color: #000;
+  font-size: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+.textvideo1 {
+  margin-left: -820px;
+  margin-top: 10px;
+  font-size: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+.tentang {
+  margin-top: 0px;
+  font-size: 15px;
+  color: #000;
 }
 .color {
-  width: 1348px;
-  height: 1000px;
-  border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 100px;
+  width: 395px;
+  margin-left: -808px;
+  margin-top: 0x;
+  height: 500px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
 }
 .container {
-  margin-top: -1300px;
+  margin-top: -300px;
 }
 .image {
   width: 450px;
@@ -56,11 +134,11 @@ form {
 }
 .ratus {
   color: #d82d40;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 5);
 }
 .rese {
   color: #d82d40;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 5);
 }
 .text4 {
   margin-top: 15px;
@@ -104,18 +182,11 @@ form {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
   font-weight: bolder;
 }
-.isi {
-  text-align: center;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 50px;
-  margin-bottom: 40px;
-  color: #000;
-}
+
 .input-container {
-  width: 630px;
+  width: 330px;
   position: relative;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .label {
@@ -187,6 +258,7 @@ form {
   }
   .color {
     width: 1348px;
+    margin-left: -0px;
     height: 1000px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -202,6 +274,7 @@ form {
   }
   .fa-solid {
     color: #d82d40;
+    font-size: 30px;
     margin-right: 15px;
   }
   .text1 {
@@ -286,17 +359,20 @@ form {
   form {
     background-color: #fff;
     background-size: cover;
+    margin-left: 0px;
     margin-top: -250px;
     width: 1200px;
     height: 1130px;
-    border: 4px solid black;
+    border: 2px solid black;
     border-radius: 30px;
   }
   .video {
+    margin-left: 0px;
     margin-top: 50px;
     width: 800px;
   }
   .textvideo {
+    margin-left: 0px;
     margin-top: 50px;
     color: #000;
     font-size: 20px;
@@ -304,12 +380,14 @@ form {
     font-weight: bold;
   }
   .textvideo1 {
+    margin-left: 0px;
     margin-top: 10px;
     font-size: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
   }
   .isi {
     text-align: center;
+    font-size: 30px;
     font-family: "Times New Roman", Times, serif;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -374,10 +452,10 @@ form {
     opacity: 1;
   }
   #daftar {
-    width: 1130px;
-    height: 45px;
+    width: 1130px !important;
+    height: 45px !important;
     position: relative;
-    margin-left: 30px;
+    margin-left: 30px !important;
   }
   .nama {
     margin-bottom: 10px;
