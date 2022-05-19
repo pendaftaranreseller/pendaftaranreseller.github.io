@@ -36,6 +36,8 @@ form {
   position: relative;
   margin-left: 10px !important;
   height: 45px;
+  background-color: #d82d40;
+  border-radius: #d82d40;
 }
 .nama {
   margin-bottom: 0px;
@@ -346,6 +348,13 @@ a {
     margin-top: 30px;
     font-size: 30px;
     margin-left: -30px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
+  .text61 {
+    margin-top: 0px;
+    font-size: 30px;
+    margin-left: 15px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
