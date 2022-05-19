@@ -6,10 +6,16 @@ body {
   background: #fff;
   color: #fff;
 }
+.image {
+  width: 100px !important;
+  height: 100px !important;
+  margin-left: 10px !important;
+  margin-top: -650px;
+}
 form {
   background-color: #fff;
   background-size: cover;
-  margin-left: -820px;
+  margin-left: -20px;
   margin-top: -150px;
   width: 350px;
   height: 960px;
@@ -92,8 +98,8 @@ form {
   color: #000;
 }
 .color {
-  width: 395px;
-  margin-left: -808px;
+  width: 385px;
+  margin-left: -518px;
   margin-top: 0x;
   height: 500px;
   border-bottom-right-radius: 70px;
@@ -267,8 +273,8 @@ form {
     margin-top: -1300px;
   }
   .image {
-    width: 450px;
-    height: 350px;
+    width: 450px !important;
+    height: 350px !important;
     margin-left: 720px;
     margin-top: -650px;
   }
