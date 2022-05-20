@@ -206,6 +206,13 @@ form {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
   font-weight: bolder;
 }
+.text91 {
+  margin-top: -5px;
+  margin-left: -10px;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 5);
+  font-weight: bolder;
+}
 a {
   color: #fff;
 }
@@ -294,8 +301,8 @@ a {
   }
   .image {
     width: 450px !important;
-    height: 350px !important;
-    margin-left: 720px !important;
+    height: 470px !important;
+    margin-left: 730px !important;
     margin-top: -650px !important;
   }
   .fa-solid {
@@ -352,9 +359,9 @@ a {
     font-weight: bolder;
   }
   .text61 {
-    margin-top: 0px;
+    margin-top: -43px;
     font-size: 30px;
-    margin-left: 15px;
+    margin-left: 395px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
@@ -366,9 +373,9 @@ a {
     font-weight: bolder;
   }
   .text71 {
-    margin-top: 0px;
+    margin-top: -43px;
     font-size: 30px;
-    margin-left: 15px;
+    margin-left: 340px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
@@ -386,6 +393,13 @@ a {
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
     font-weight: bolder;
   }
+  .text91 {
+    margin-top: -43px !important;
+    font-size: 30px;
+    margin-left: 530px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 5);
+    font-weight: bolder;
+  }
   a {
     color: #fff;
   }
@@ -393,7 +407,7 @@ a {
     background-color: #fff;
     background-size: cover;
     margin-left: 0px;
-    margin-top: -250px;
+    margin-top: -200px;
     width: 1200px;
     height: 1130px;
     border: 2px solid black;
