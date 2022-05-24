@@ -6,6 +6,12 @@ body {
   background: #fff;
   color: #fff;
 }
+.alert {
+  margin-top: -940px;
+  width: 372px;
+  height: 55px;
+  font-size: 14px;
+}
 .image {
   width: 145px !important;
   height: 145px !important;
@@ -288,6 +294,12 @@ a {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     background-color: #fff;
     color: #fff;
+  }
+  .alert {
+    margin-top: -455px;
+    width: 1000px;
+    font-size: 25px;
+    height: 70px;
   }
   .color {
     width: 1348px !important;

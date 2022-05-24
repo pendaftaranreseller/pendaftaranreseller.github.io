@@ -34,50 +34,58 @@
       <h4 class="text91">Instagram : <a href="https://www.instagram.com/momchipsofficial/" target="_blank">@momchipsofficial</a></h4>
       <image class="image" src="image/IMG_1124.PNG"></image>
     </div>
-    <form action="email.php" method="get">
+    <div class="alert alert-danger alert-dismissible fade show d-none my-alert" role="alert">
+  <strong>Terimakasih!</strong> Pesan Anda sudah Kami terima.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+    <form name="form-reseller-momchips">
       <h3 class="isi">Isi Form untuk Join Reseller Momchips</h3>
       <div class="input-container">
-        <label class="nama" name="nama">Nama</label>
-        <input type="nama" id="nama" class="text-input" autocomplete="off" placeholder="Masukkan Nama Lengkap" required />
+        <label class="nama">Nama</label>
+        <input type="text" name="nama" id="nama" class="text-input" autocomplete="off" placeholder="Masukkan Nama Lengkap" required />
       </div>
       <br />
       <div class="input-container">
-        <label class="email" name="email">Email</label>
-        <input type="email" id="email" class="text-input" autocomplete="off" placeholder="Masukkan Email" required />
+        <label class="email">Email</label>
+        <input type="email" name="email" id="email" class="text-input" autocomplete="off" placeholder="Masukkan Email" required />
       </div>
       <br />
       <div class="input-container">
-        <label class="kota" name="kota">Kota Tempat Tinggal</label>
-        <input type="text" id="kota" class="text-input" autocomplete="off" placeholder="Masukkan Kota Tempat Tinggal" required />
+        <label class="kota" >Kota Tempat Tinggal</label>
+        <input type="text"  name="kota" id="kota" class="text-input" autocomplete="off" placeholder="Masukkan Kota Tempat Tinggal" required />
       </div>
       <br />
       <div class="input-container">
-        <label class="number" name="number">Nomor HP (WhatsApp)</label>
-        <input type="number" id="number" class="text-input" autocomplete="off" placeholder="Masukkan Nomor WhatsApp" required />
+        <label class="number">Nomor HP (WhatsApp)</label>
+        <input type="number" name="Nomor HP" id="number" class="text-input" autocomplete="off" placeholder="Masukkan Nomor WhatsApp" required />
       </div>
       <br />
       <div class="input-container">
-        <label class="coba" name="coba">Apakah kamu pernah mencoba Momchips? (Pernah, Tidak)</label>
-        <input type="text" id="coba" class="text-input" autocomplete="off" placeholder="Masukkan Jawabanmu" required />
+        <label class="coba" >Apakah kamu pernah mencoba Momchips? (Pernah, Tidak)</label>
+        <input type="text" name="pernah/tidak mencoba momchips" id="coba" class="text-input" autocomplete="off" placeholder="Masukkan Jawabanmu" required />
       </div>
       <br />
       <div class="input-container">
-        <label class="akun" name="akun">Apakah sudah punya akun Marketplace (Shopee, Tokopedia, Lazada)</label>
-        <input type="text" id="akun" class="text-input" autocomplete="off" placeholder="Masukkan Jawabanmu" required />
+        <label class="akun">Apakah sudah punya akun Marketplace (Shopee, Tokopedia, Lazada)</label>
+        <input type="text" name="akun marketplace" id="akun" class="text-input" autocomplete="off" placeholder="Masukkan Jawabanmu" required />
       </div>
       <br />
       <div class="input-container">
-        <label class="jumlah" name="akun">Jumlah Modal</label>
-        <input type="text" id="jumlah" class="text-input" autocomplete="off" placeholder="Masukkan Jumlah Modal" required />
+        <label class="jumlah" >Jumlah Modal</label>
+        <input type="number" name="jumlah modal" id="jumlah" class="text-input" autocomplete="off" placeholder="Masukkan Jumlah Modal" required />
       </div>
       <br />
       <div class="input-container">
-        <label class="tentang" name="tentang">Darimana kamu mengetahui tentang Momchips?</label>
-        <input type="text" id="tentang" class="text-input" autocomplete="off" placeholder="Masukkan Jawabanmu" required />
+        <label class="tentang" >Darimana kamu mengetahui tentang Momchips?</label>
+        <input type="text" name="darimana mengetahui momchips" id="tentang" class="text-input" autocomplete="off" placeholder="Masukkan Jawabanmu" required />
       </div>
       <br />
       <div class="d-grid gap-2">
-        <button class="btn btn-primary" id="daftar" type="button">DAFTAR SEKARANG</button>
+        <button type="submit" class="btn btn-primary btn-kirim" id="daftar">DAFTAR SEKARANG</button>
+        <button class="btn btn-primary btn-loading d-none" type="button" id="daftar"   disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button>
       </div>
     </form>
     <video controls autoplay class="video">
@@ -113,5 +121,32 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwM6vIKUHLJbCoaXTX4fuR1XFEiH6BwkawQuob7mz6CU6S3dVmGYQ27i9N6QAet4qH3/exec'
+  const form = document.forms['form-reseller-momchips']
+  const btnKirim = document.querySelector('.btn-kirim');
+  const btnLoading = document.querySelector('.btn-loading');
+  const myAlert = document.querySelector('.my-alert');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    // ketika tombol submit diklik
+    // tampilkan tombol loading, hilangkan tombol kirim
+    btnLoading.classList.toggle('d-none');
+    btnKirim.classList.toggle('d-none');
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        // tampilkan tombol kirim, hilangkan tombol loading
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        // tampilkan alert
+        myAlert.classList.toggle('d-none');
+        // reset formnya
+        form.reset();
+        console.log('Success!', response);
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
